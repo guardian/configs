@@ -1,20 +1,20 @@
 {
-	"name": "@guardian/eslint-config",
-	"version": "0.1.0",
-	"description": "ESLint config for Guardian JavaScript projects",
-	"homepage": "https://github.com/guardian/configs#readme",
-	"license": "MIT",
-	"main": "index.js",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/guardian/configs.git"
-	},
-	"bugs": {
-		"url": "https://github.com/guardian/configs/issues"
-	},
-	"peerDependencies": {
-		"eslint": "^7.11.0",
-		"eslint-config-prettier": "^6.12.0",
-		"eslint-plugin-import": "^2.22.1"
-	}
+  "name": "@guardian/eslint-config",
+  "version": "0.1.0",
+  "description": "ESLint config for Guardian JavaScript projects",
+  "homepage": "https://github.com/guardian/configs#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guardian/configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guardian/configs/issues"
+  },
+  "peerDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1"
+  }
 }
