@@ -3,7 +3,6 @@ module.exports = {
 		'eslint:recommended',
 		'plugin:import/errors',
 		'plugin:import/warnings',
-		'plugin:import/typescript',
 
 		// https://mysticatea.github.io/eslint-plugin-eslint-comments
 		'plugin:eslint-comments/recommended',
