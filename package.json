@@ -2,6 +2,11 @@
 	"name": "root",
 	"private": true,
 	"devDependencies": {
+		"@guardian/eslint-config": "./packages/eslint-config",
+		"@guardian/prettier": "./packages/prettier",
+		"eslint": "^7.11.0",
+		"eslint-plugin-import": "^2.22.1",
 		"lerna": "^3.20.2"
-	}
+	},
+	"prettier": "@guardian/prettier"
 }
