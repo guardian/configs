@@ -1,21 +1,30 @@
 module.exports = {
-	arrowParens: "always",
+	arrowParens: 'always',
 	bracketSpacing: true,
 	jsxBracketSameLine: false,
 	jsxSingleQuote: false,
+	printWidth: 80,
+	quoteProps: 'as-needed',
+	semi: false,
+	singleQuote: true,
+	trailingComma: 'all',
+	useTabs: true,
 	overrides: [
 		{
-			files: "*.md",
+			// align with .editorconfig
+			files: '*.md',
+			options: {
+				tabWidth: 4,
+				useTabs: false,
+			},
+		},
+		{
+			// align with .editorconfig
+			files: '*.json',
 			options: {
 				tabWidth: 2,
 				useTabs: false,
 			},
 		},
 	],
-	printWidth: 80,
-	quoteProps: "as-needed",
-	semi: true,
-	singleQuote: true,
-	trailingComma: "all",
-	useTabs: true,
-};
+}
