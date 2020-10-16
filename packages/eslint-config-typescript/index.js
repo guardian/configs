@@ -61,6 +61,7 @@ module.exports = {
 		// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-reduce-type-parameter.md
 		'@typescript-eslint/prefer-reduce-type-parameter': 2,
 
+		// use String#startsWith or String#endsWith instead of String#indexOf et al
 		'@typescript-eslint/prefer-string-starts-ends-with': 2,
 
 		// use `@ts-expect-error` instead of `@ts-ignore`
