@@ -5,13 +5,13 @@
 ## Installation
 
 ```bash
-yarn add @guardian/prettier
+yarn add -D @guardian/prettier
 ```
 
 or
 
 ```bash
-npm install @guardian/prettier
+npm install --save-dev @guardian/prettier
 ```
 
 ## Usage

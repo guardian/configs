@@ -5,13 +5,13 @@
 ## Installation
 
 ```bash
-yarn add @guardian/eslint-config
+yarn add -D @guardian/eslint-config
 ```
 
 or
 
 ```bash
-npm install @guardian/eslint-config
+npm install --save-dev @guardian/eslint-config
 ```
 
 ## Usage
