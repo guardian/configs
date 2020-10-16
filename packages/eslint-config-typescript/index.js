@@ -61,6 +61,11 @@ module.exports = {
 		// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-reduce-type-parameter.md
 		'@typescript-eslint/prefer-reduce-type-parameter': 2,
 
+		'@typescript-eslint/prefer-string-starts-ends-with': 2,
+
+		// use `@ts-expect-error` instead of `@ts-ignore`
+		'@typescript-eslint/prefer-ts-expect-error': 2,
+
 		/*
 		NOT FIXABLE BUT USEFUL
 		*/
@@ -70,5 +75,8 @@ module.exports = {
 
 		// use `a?.b` instead of `a && a.b`
 		'@typescript-eslint/prefer-optional-chain': 2,
+
+		// requires any function or method that returns a Promise to be marked async
+		'@typescript-eslint/promise-function-async': 2,
 	},
 };
