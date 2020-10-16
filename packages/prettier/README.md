@@ -1,11 +1,22 @@
-# `prettier`
+# `@guardian/prettier`
 
-> TODO: description
+> Prettier config for Guardian JavaScript projects.
+
+## Installation
+
+```bash
+yarn add @guardian/prettier
+```
+
+or
+
+```bash
+npm install @guardian/prettier
+```
 
 ## Usage
 
-```
-const prettier = require('prettier');
-
-// TODO: DEMONSTRATE API
+```yaml
+# Prettier configuration file
+'@guardian/prettier'
 ```

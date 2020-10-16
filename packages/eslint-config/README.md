@@ -1,11 +1,24 @@
-# `eslint-config`
+# `@guardian/eslint-config`
 
-> TODO: description
+> ESLint config for Guardian JavaScript projects.
+
+## Installation
+
+```bash
+yarn add @guardian/eslint-config
+```
+
+or
+
+```bash
+npm install @guardian/eslint-config
+```
 
 ## Usage
 
-```
-const eslintConfig = require('eslint-config');
-
-// TODO: DEMONSTRATE API
+```js
+// ESLint configuration file
+{
+    "extends": "@guardian/eslint-config"
+}
 ```

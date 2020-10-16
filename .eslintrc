@@ -3,5 +3,5 @@
 	"env": {
 		"node": true
 	},
-	"extends": "@guardian" // dog-fooding packages/eslint-config
+	"extends": "@guardian/eslint-config"
 }
