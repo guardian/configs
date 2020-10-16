@@ -5,13 +5,13 @@
 ## Installation
 
 ```bash
-yarn add @guardian/eslint-config-typescript
+yarn add -D @guardian/eslint-config-typescript
 ```
 
 or
 
 ```bash
-npm install @guardian/eslint-config-typescript
+npm install --save-dev @guardian/eslint-config-typescript
 ```
 
 ## Usage
