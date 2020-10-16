@@ -15,6 +15,7 @@
   "peerDependencies": {
     "eslint": "^7.11.0",
     "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.22.1"
   },
   "publishConfig": {
