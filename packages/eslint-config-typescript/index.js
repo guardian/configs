@@ -26,34 +26,39 @@ module.exports = {
 		// use `string[]` for simple arrays, `Array<string>` for complex ones
 		// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/array-type.md#array-simple
 		'@typescript-eslint/array-type': [
-			'error',
+			2,
 			{
 				default: 'array-simple',
 			},
 		],
 
 		// use `Record<string, unknown>` instead of `{ [key: string]: unknown }`
-		'@typescript-eslint/consistent-indexed-object-style': [
-			'error',
-			'record',
-		],
+		'@typescript-eslint/consistent-indexed-object-style': [2, 'record'],
 
 		// be explicit when you only want to import a type:
 		// `import type { Foo } from 'Foo';`
-		'@typescript-eslint/consistent-type-imports': 'prefer',
+		'@typescript-eslint/consistent-type-imports': [
+			2,
+			{
+				prefer: 'type-imports',
+			},
+		],
 
 		// delimit members with semi-colons and require
 		// one at the end to keep diffs simpler
-		'@typescript-eslint/member-delimiter-style': {
-			multiline: {
-				delimiter: 'semi',
-				requireLast: true,
+		'@typescript-eslint/member-delimiter-style': [
+			2,
+			{
+				multiline: {
+					delimiter: 'semi',
+					requireLast: true,
+				},
+				singleline: {
+					delimiter: 'semi',
+					requireLast: true,
+				},
 			},
-			singleline: {
-				delimiter: 'semi',
-				requireLast: true,
-			},
-		},
+		],
 
 		// use `(1 + foo.num!) == 2` instead of `1 + foo.num! == 2`
 		'@typescript-eslint/no-confusing-non-null-assertion': 2,
@@ -82,7 +87,7 @@ module.exports = {
 		// Enforce TypeScript naming conventions
 		// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/naming-convention.md
 		'@typescript-eslint/naming-convention': [
-			'error',
+			2,
 
 			// types are 'PascalCase'
 			{
