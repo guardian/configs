@@ -21,9 +21,9 @@ module.exports = {
 		not direct or inhibit what can be done with code.
 		*/
 
-		// use `string[]` instead of `Array<string>`
-		// https://basarat.gitbook.io/typescript/styleguide#array
-		'@typescript-eslint/array-type': ['error', 'generic'],
+		// use `string[]` for simple arrays, `Array<string>` for complex ones
+		// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/array-type.md#array-simple
+		'@typescript-eslint/array-type': ['error', 'array-simple'],
 
 		// use `Record<string, unknown>` instead of `{ [key: string]: unknown }`
 		'@typescript-eslint/consistent-indexed-object-style': [
