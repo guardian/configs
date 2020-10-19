@@ -72,6 +72,30 @@ module.exports = {
 		NOT FIXABLE BUT USEFUL
 		*/
 
+		// Enforce TypeScript naming conventions
+		// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/naming-convention.md
+		'@typescript-eslint/naming-convention': [
+			'error',
+
+			// functions are 'camelCase', React components are 'PascalCase'
+			{
+				selector: 'function',
+				format: ['camelCase', 'PascalCase'],
+			},
+
+			// variables are 'camelCase' or 'UPPER_CASE', React components are 'PascalCase',
+			{
+				selector: 'variable',
+				format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
+			},
+
+			// types are 'PascalCase'
+			{
+				selector: ['typeLike', 'enumMember'],
+				format: ['PascalCase'],
+			},
+		],
+
 		// use `foo ?? 'a string'` instead of `foo !== null && foo !== undefined ? foo : 'a string'`
 		'@typescript-eslint/prefer-nullish-coalescing': 2,
 
