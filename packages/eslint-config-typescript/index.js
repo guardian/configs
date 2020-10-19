@@ -7,7 +7,9 @@ module.exports = {
 	plugins: ['@typescript-eslint'],
 	extends: [
 		'@guardian/eslint-config',
+		'plugin:@typescript-eslint/eslint-recommended',
 		'plugin:@typescript-eslint/recommended',
+		'plugin:@typescript-eslint/recommended-requiring-type-checking',
 		'plugin:import/typescript',
 		'prettier/@typescript-eslint',
 	],
