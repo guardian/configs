@@ -25,7 +25,12 @@ module.exports = {
 
 		// use `string[]` for simple arrays, `Array<string>` for complex ones
 		// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/array-type.md#array-simple
-		'@typescript-eslint/array-type': ['error', 'array-simple'],
+		'@typescript-eslint/array-type': [
+			'error',
+			{
+				default: 'array-simple',
+			},
+		],
 
 		// use `Record<string, unknown>` instead of `{ [key: string]: unknown }`
 		'@typescript-eslint/consistent-indexed-object-style': [
