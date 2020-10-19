@@ -21,7 +21,8 @@ module.exports = {
 		not direct or inhibit what can be done with code.
 		*/
 
-		// use `Array<string>` instead of `string[]`
+		// use `string[]` instead of `Array<string>`
+		// https://basarat.gitbook.io/typescript/styleguide#array
 		'@typescript-eslint/array-type': ['error', 'generic'],
 
 		// use `Record<string, unknown>` instead of `{ [key: string]: unknown }`
