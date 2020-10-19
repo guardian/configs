@@ -77,22 +77,18 @@ module.exports = {
 		'@typescript-eslint/naming-convention': [
 			'error',
 
-			// functions are 'camelCase', React components are 'PascalCase'
-			{
-				selector: 'function',
-				format: ['camelCase', 'PascalCase'],
-			},
-
-			// variables are 'camelCase' or 'UPPER_CASE', React components are 'PascalCase',
-			{
-				selector: 'variable',
-				format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
-			},
-
 			// types are 'PascalCase'
 			{
 				selector: ['typeLike', 'enumMember'],
 				format: ['PascalCase'],
+			},
+
+			// booleans are descriptive
+			{
+				selector: 'variable',
+				types: ['boolean'],
+				format: ['PascalCase'],
+				prefix: ['is', 'should', 'has', 'can', 'did', 'will'],
 			},
 		],
 
