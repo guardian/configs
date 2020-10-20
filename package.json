@@ -2,7 +2,8 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "lint": "eslint packages"
+    "lint": "eslint packages",
+    "release": "lerna publish"
   },
   "devDependencies": {
     "@guardian/eslint-config": "file:packages/eslint-config",
