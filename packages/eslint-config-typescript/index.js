@@ -97,12 +97,12 @@ module.exports = {
 			},
 
 			// booleans are descriptive
-			{
-				selector: 'variable',
-				types: ['boolean'],
-				format: ['PascalCase'],
-				prefix: ['is', 'should', 'has', 'can', 'did', 'will'],
-			},
+			// {
+			// 	selector: 'variable',
+			// 	types: ['boolean'],
+			// 	format: ['PascalCase'],
+			// 	prefix: ['is', 'should', 'has', 'can', 'did', 'will'],
+			// },
 		],
 
 		// use `foo ?? 'a string'` instead of `foo !== null && foo !== undefined ? foo : 'a string'`
@@ -112,6 +112,6 @@ module.exports = {
 		'@typescript-eslint/prefer-optional-chain': 2,
 
 		// requires any function or method that returns a Promise to be marked async
-		'@typescript-eslint/promise-function-async': 2,
+		// '@typescript-eslint/promise-function-async': 2,
 	},
 };
