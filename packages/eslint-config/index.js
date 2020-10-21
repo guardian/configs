@@ -8,7 +8,7 @@ module.exports = {
 		'eslint:recommended',
 		'plugin:import/errors',
 		'plugin:import/warnings',
-		'prettier',
+		'plugin:prettier/recommended',
 	],
 	plugins: ['eslint-comments'],
 	rules: {
