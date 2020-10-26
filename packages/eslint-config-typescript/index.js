@@ -52,11 +52,11 @@ module.exports = {
 			{
 				multiline: {
 					delimiter: 'semi',
-					requireLast: true,
+					requireLast: false,
 				},
 				singleline: {
 					delimiter: 'semi',
-					requireLast: true,
+					requireLast: false,
 				},
 			},
 		],
