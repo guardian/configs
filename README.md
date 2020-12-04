@@ -9,6 +9,6 @@ Reusable configs to standardise/share across Guardian codebases:
 
 ## Note
 
-This repo is primarily the source code to build the shareable congigs listed above, rather than an example of them.
+This repo is primarily the source code to build the shareable configs listed above, rather than an example of them.
 
 The one exception to that is the `.editorconfig`, because you can't publish those...
