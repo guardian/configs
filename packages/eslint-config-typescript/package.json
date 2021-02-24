@@ -13,7 +13,7 @@
     "url": "https://github.com/guardian/configs/issues"
   },
   "dependencies": {
-    "@guardian/eslint-config": "^0.4.0"
+    "@guardian/eslint-config": "^0.4.2"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.0.0",
