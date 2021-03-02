@@ -1,6 +1,6 @@
 {
   "name": "@guardian/prettier",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "Prettier config for Guardian JavaScript projects",
   "homepage": "https://github.com/guardian/configs#readme",
   "license": "MIT",
