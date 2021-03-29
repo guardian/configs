@@ -8,8 +8,12 @@ updates:
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
-      interval: 'weekly'
+      interval: 'weekly'    
+      day: 'monday'
+      time: '06:00'
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
-      interval: 'weekly'
+      interval: 'weekly'      
+      day: 'monday'
+      time: '06:00'
