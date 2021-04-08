@@ -112,5 +112,13 @@ module.exports = {
 
 		// requires any function or method that returns a Promise to be marked async
 		// '@typescript-eslint/promise-function-async': 2,
+		
+		'@typescript-eslint/no-unused-vars': [
+			2, 
+			{ 
+				argsIgnorePattern: '^_$', 
+				varsIgnorePattern: '^_$' 
+			}
+		],
 	},
 };
