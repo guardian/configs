@@ -1,6 +1,6 @@
 {
   "name": "@guardian/eslint-config",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "ESLint config for Guardian JavaScript projects",
   "homepage": "https://github.com/guardian/configs#readme",
   "license": "MIT",
@@ -12,12 +12,12 @@
   "bugs": {
     "url": "https://github.com/guardian/configs/issues"
   },
-	"dependencies": {
+  "dependencies": {
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-eslint-comments": "3.2.0",
     "eslint-plugin-import": "2.23.4",
     "eslint-plugin-prettier": "3.4.0"
-	},
+  },
   "peerDependencies": {
     "eslint": "^7.0.0"
   },
