@@ -36,8 +36,14 @@ module.exports = {
 		// and sometimes tools or 3rd parties require it
 		'no-underscore-dangle': 0,
 
+		// encourages consistent token use across code bases 
+		// (you have to deliberately rename an import) and
+		// makes the location of errors easier to discover:
+		// https://twitter.com/addyosmani/status/1411233253948747777	
 		'import/no-default-export': 2,
 		'import/prefer-default-export': 0,
+		
+		// less diff noise (they're hoisted anyway)
 		'import/first': 2,
 
 		// fixable import formatting, designed to minimise diff noise
