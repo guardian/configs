@@ -1,0 +1,18 @@
+name: CI
+on:
+  push:
+    branches-ignore:
+      - 'gh-pages'
+  pull_request:
+    branches-ignore:
+      - 'gh-pages'
+
+jobs:
+  lint:
+    name: Linting
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: guardian/actions-setup-node@main
+      - uses: bahmutov/npm-install@v1
+      - run: yarn lint
