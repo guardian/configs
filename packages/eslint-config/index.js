@@ -76,5 +76,8 @@ module.exports = {
 				},
 			},
 		],
+
+		// prevent circular dependencies
+		'import/no-cycle': 2,
 	},
 };
