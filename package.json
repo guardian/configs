@@ -12,9 +12,9 @@
     "@guardian/eslint-config": "file:packages/eslint-config",
     "@guardian/eslint-config-typescript": "file:packages/eslint-config-typescript",
     "@guardian/prettier": "file:packages/prettier",
-    "eslint": "^7.28.0",
+    "eslint": "7.2.0",
     "lerna": "^4.0.0",
-    "prettier": "^2.3.1",
-    "typescript": "^4.3.2"
+    "prettier": "2.4.0",
+    "typescript": "4.0.2"
   }
 }
