@@ -13,9 +13,9 @@
     "url": "https://github.com/guardian/configs/issues"
   },
   "dependencies": {
-    "@guardian/eslint-config": "^0.7.0",
     "@typescript-eslint/eslint-plugin": "4.29.2",
     "@typescript-eslint/parser": "4.29.2"
+    "@guardian/eslint-config": "0.7.0",
   },
   "peerDependencies": {
     "typescript": "^4.0.0"
