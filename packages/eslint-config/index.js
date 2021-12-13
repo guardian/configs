@@ -15,6 +15,9 @@ module.exports = {
 	],
 	plugins: ['eslint-comments'],
 	rules: {
+		// prevent dangling returns without braces
+		curly: ['error', 'multi-line'],
+
 		// require a `eslint-enable` comment for every `eslint-disable` comment
 		'eslint-comments/disable-enable-pair': [2, { allowWholeFile: true }],
 
