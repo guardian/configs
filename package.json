@@ -1,6 +1,9 @@
 {
   "name": "root",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "lint": "eslint --ext .js,.ts,.jsx,.tsx packages",
     "release": "lerna publish"
