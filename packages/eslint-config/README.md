@@ -1,6 +1,6 @@
 # `@guardian/eslint-config`
 
-> ESLint config for Guardian JavaScript projects.
+> ESLint config for Guardian JavaScript/TypeScript projects.
 
 ## Installation
 
@@ -21,4 +21,10 @@ npm install --save-dev @guardian/eslint-config
 {
     "extends": "@guardian/eslint-config"
 }
+```
+
+```shell
+$ eslint . --ext .js,.jsx # only lint js
+$ eslint . --ext .ts,.tsx # only lint ts
+$ eslint . --ext .js,.jsx,.ts,.tsx # lint both
 ```

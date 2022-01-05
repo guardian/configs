@@ -10,7 +10,6 @@
   },
   "devDependencies": {
     "@guardian/eslint-config": "file:packages/eslint-config",
-    "@guardian/eslint-config-typescript": "file:packages/eslint-config-typescript",
     "@guardian/prettier": "file:packages/prettier",
     "eslint": "8.0.0",
     "lerna": "^4.0.0",
