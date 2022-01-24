@@ -39,14 +39,14 @@
     strip-json-comments "^3.1.1"
 
 "@guardian/eslint-config-typescript@file:packages/eslint-config-typescript":
-  version "0.7.0"
+  version "1.0.0"
   dependencies:
-    "@guardian/eslint-config" "0.7.0"
+    "@guardian/eslint-config" "^1.0.0"
     "@typescript-eslint/eslint-plugin" "5.6.0"
     "@typescript-eslint/parser" "5.6.0"
 
 "@guardian/eslint-config@file:packages/eslint-config":
-  version "0.7.0"
+  version "1.0.0"
   dependencies:
     eslint-config-prettier "8.3.0"
     eslint-plugin-eslint-comments "3.2.0"
@@ -54,7 +54,7 @@
     eslint-plugin-prettier "4.0.0"
 
 "@guardian/prettier@file:packages/prettier":
-  version "0.7.0"
+  version "1.0.0"
 
 "@humanwhocodes/config-array@^0.6.0":
   version "0.6.0"
@@ -5072,10 +5072,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@4.0.2:
-  version "4.0.2"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-4.0.2.tgz#7ea7c88777c723c681e33bf7988be5d008d05ac2"
-  integrity sha512-e4ERvRV2wb+rRZ/IQeb3jm2VxBsirQLpQhdxplZ2MEzGvDkkMmPglecnNDfSUBivMjP93vRbngYYDQqQ/78bcQ==
+typescript@4.5.5:
+  version "4.5.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.5.tgz#d8c953832d28924a9e3d37c73d729c846c5896f3"
+  integrity sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==
 
 uglify-js@^3.1.4:
   version "3.13.5"
