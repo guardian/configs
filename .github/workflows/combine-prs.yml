@@ -61,7 +61,7 @@ jobs:
                   if(statuses.length > 0) {
                     const latest_status = statuses[0]['state'];
                     console.log('Validating status: ' + latest_status);
-                    if(latest_status != 'success') {
+                    if(latest_status != 'success' || latest_status != 'pending') {
                       console.log('Discarding ' + branch + ' with status ' + latest_status);
                       statusOK = false;
                     }
