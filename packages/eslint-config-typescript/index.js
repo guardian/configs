@@ -15,6 +15,15 @@ module.exports = {
 	],
 	settings: {
 		'import/extensions': ['.ts', '.tsx'],
+		'import/parsers': {
+			'@typescript-eslint/parser': ['.ts', '.tsx'],
+		},
+		'import/resolver': {
+			typescript: {
+				// always try to resolve types under `<root>@types` directory even it doesn't contain any source code
+				alwaysTryTypes: true,
+			},
+		},
 	},
 	rules: {
 		/*
