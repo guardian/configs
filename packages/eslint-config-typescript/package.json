@@ -15,7 +15,7 @@
   "dependencies": {
     "@guardian/eslint-config": "^1.0.0",
     "@typescript-eslint/eslint-plugin": "5.6.0",
-    "@typescript-eslint/parser": "5.6.0",
+    "@typescript-eslint/parser": "5.15.0",
     "eslint-import-resolver-typescript": "2.5.0",
     "eslint-plugin-import": "2.25.3"
   },
