@@ -32,7 +32,7 @@ Or in your `package.json`:
 
 ## Rules
 
--   support `<script type="module">` _and_ at least 0.01% usage
+-   support `<script type="module">` _and_ at least 0.01% of page views on theguardian.com
 
 ## Included browsers
 
