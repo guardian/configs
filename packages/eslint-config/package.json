@@ -1,6 +1,6 @@
 {
   "name": "@guardian/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint config for Guardian JavaScript projects",
   "homepage": "https://github.com/guardian/configs#readme",
   "license": "MIT",

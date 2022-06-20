@@ -1,6 +1,6 @@
 {
   "name": "@guardian/eslint-config-typescript",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint config for Guardian TypeScript projects",
   "homepage": "https://github.com/guardian/configs#readme",
   "license": "MIT",
@@ -13,7 +13,7 @@
     "url": "https://github.com/guardian/configs/issues"
   },
   "dependencies": {
-    "@guardian/eslint-config": "^1.0.0",
+    "@guardian/eslint-config": "^1.0.1",
     "@typescript-eslint/eslint-plugin": "5.28.0",
     "@typescript-eslint/parser": "5.28.0",
     "eslint-import-resolver-typescript": "2.7.1",
