@@ -6,14 +6,14 @@
   ],
   "scripts": {
     "lint": "eslint --ext .js,.ts,.jsx,.tsx packages",
-    "release": "lerna publish"
+    "release": "changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.23.0",
     "@guardian/eslint-config": "file:packages/eslint-config",
     "@guardian/eslint-config-typescript": "file:packages/eslint-config-typescript",
     "@guardian/prettier": "file:packages/prettier",
     "eslint": "8.0.0",
-    "lerna": "^4.0.0",
     "prettier": "2.4.0",
     "typescript": "4.0.2"
   }
