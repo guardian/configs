@@ -16,7 +16,7 @@
     "url": "https://github.com/guardian/configs/issues"
   },
   "devDependencies": {
-    "browserslist": "^4.0.0"
+    "browserslist": "4.0.0"
   },
   "peerDependencies": {
     "browserslist": "^4.0.0"
