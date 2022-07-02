@@ -8,16 +8,14 @@ module.exports = {
 	semi: true,
 	singleQuote: true,
 	trailingComma: 'all',
+
+	// Tabs for accessibility reasons:
+	// - https://alexandersandberg.com/tabs-for-accessibility
+	// - https://twitter.com/Rich_Harris/status/1541761871585464323
+	// If it messes up your github previews, you can choose your favourite tab width:
+	// - https://github.com/settings/appearance
 	useTabs: true,
 	overrides: [
-		{
-			// align with .editorconfig
-			files: '*.md',
-			options: {
-				tabWidth: 4,
-				useTabs: false,
-			},
-		},
 		{
 			// align with .editorconfig
 			files: '*.json',
