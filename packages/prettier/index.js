@@ -15,14 +15,4 @@ module.exports = {
 	// If it messes up your github previews, you can choose your favourite tab width:
 	// - https://github.com/settings/appearance
 	useTabs: true,
-	overrides: [
-		{
-			// align with .editorconfig
-			files: '*.json',
-			options: {
-				tabWidth: 2,
-				useTabs: false,
-			},
-		},
-	],
 };

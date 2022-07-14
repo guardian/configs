@@ -10,16 +10,10 @@ root = true
 # If it messes up your github previews, you can choose your favourite tab width:
 # - https://github.com/settings/appearance
 indent_style = tab
-indent_size = 4
 end_of_line = lf
 charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
-
-[package.json]
-# `npm` autoformats `package.json` every time you install a new dependency.
-indent_size = 2
-indent_style = space
 
 # Because `yml`
 [*.{yml,yaml}]
