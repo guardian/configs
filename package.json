@@ -6,6 +6,7 @@
   ],
   "scripts": {
     "lint": "eslint --ext .js,.ts,.jsx,.tsx packages",
+    "fix": "yarn lint --fix",
     "release": "changeset publish"
   },
   "devDependencies": {

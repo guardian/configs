@@ -30,10 +30,7 @@ module.exports = {
 		'eslint-comments/no-unused-enable': 2,
 
 		// require an explanation if you disable eslint
-		'eslint-comments/require-description': [
-			2,
-			{ ignore: ['eslint-enable'] },
-		],
+		'eslint-comments/require-description': [2, { ignore: ['eslint-enable'] }],
 
 		// this doesn't catch bugs or make things more readable
 		// and sometimes tools or 3rd parties require it

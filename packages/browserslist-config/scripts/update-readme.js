@@ -29,10 +29,7 @@ const replacements = [
 
 for (const { key, value } of replacements) {
 	const regex = new RegExp(`<!-- ${key} -->(.|\n)*?<!-- /${key} -->`, 'gm');
-	readme = readme.replace(
-		regex,
-		`<!-- ${key} -->\n${value}\n<!-- /${key} -->`,
-	);
+	readme = readme.replace(regex, `<!-- ${key} -->\n${value}\n<!-- /${key} -->`);
 }
 
 fs.writeFileSync(pathToReadme, readme);
