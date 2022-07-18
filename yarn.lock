@@ -573,14 +573,16 @@ breakword@^1.0.5:
   dependencies:
     wcwidth "^1.0.1"
 
-browserslist@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.0.0.tgz#48703f1ed7ef981c6719e39e9444f20632b06571"
-  integrity sha512-fJq4izbUYHHNdQd/5Mco31HeL8U8dg5sSaj5boaDP17+aAe41CrxSZbQifIjaWw27iIilmy48z9PrVtelNJhbw==
+browserslist@4.16.5:
+  version "4.16.5"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.5.tgz#952825440bca8913c62d0021334cbe928ef062ae"
+  integrity sha512-C2HAjrM1AI/djrpAUU/tr4pml1DqLIzJKSLDBXBrNErl9ZCCTXdhwxdJjYc16953+mBWf7Lw+uUJgpgb8cN71A==
   dependencies:
-    caniuse-lite "^1.0.30000859"
-    electron-to-chromium "^1.3.50"
-    node-releases "^1.0.0-alpha.10"
+    caniuse-lite "^1.0.30001214"
+    colorette "^1.2.2"
+    electron-to-chromium "^1.3.719"
+    escalade "^3.1.1"
+    node-releases "^1.1.71"
 
 call-bind@^1.0.0, call-bind@^1.0.2:
   version "1.0.2"
@@ -609,7 +611,7 @@ camelcase@^5.0.0, camelcase@^5.3.1:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
-caniuse-lite@^1.0.30000859:
+caniuse-lite@^1.0.30001214:
   version "1.0.30001367"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001367.tgz#2b97fe472e8fa29c78c5970615d7cd2ee414108a"
   integrity sha512-XDgbeOHfifWV3GEES2B8rtsrADx4Jf+juKX2SICJcaUhjYBO3bR96kvEIHa15VU6ohtOhBZuPGGYGbXMRn0NCw==
@@ -687,6 +689,11 @@ color-name@~1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
+
+colorette@^1.2.2:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.4.0.tgz#5190fbb87276259a86ad700bff2c6d6faa3fca40"
+  integrity sha512-Y2oEozpomLn7Q3HFP7dpww7AtMJplbM9lGZP6RDfHqmbeRjiwRg4n6VM6j4KLmRke85uWEI7JqF17f3pqdRA0g==
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -830,7 +837,7 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-electron-to-chromium@^1.3.50:
+electron-to-chromium@^1.3.719:
   version "1.4.192"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.192.tgz#fac050058b3e0713b401a1088cc579e14c2ab165"
   integrity sha512-8nCXyIQY9An88NXAp+PuPy5h3/w5ZY7Iu2lag65Q0XREprcat5F8gKhoHsBUnQcFuCRnmevpR8yEBYRU3d2HDw==
@@ -1897,7 +1904,7 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-node-releases@^1.0.0-alpha.10:
+node-releases@^1.1.71:
   version "1.1.77"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.77.tgz#50b0cfede855dd374e7585bf228ff34e57c1c32e"
   integrity sha512-rB1DUFUNAN4Gn9keO2K1efO35IDK7yKHCdCaIMvFO7yUYmmZYeDjnGKle26G4rwj+LKRQpjyUUvMkPglwGCYNQ==
