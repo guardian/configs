@@ -1,21 +1,21 @@
 {
-  "name": "root",
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
-  "scripts": {
-    "lint": "eslint --ext .js,.ts,.jsx,.tsx packages",
-    "fix": "yarn lint --fix",
-    "release": "changeset publish"
-  },
-  "devDependencies": {
-    "@changesets/cli": "^2.23.2",
-    "@guardian/eslint-config": "file:packages/eslint-config",
-    "@guardian/eslint-config-typescript": "file:packages/eslint-config-typescript",
-    "@guardian/prettier": "file:packages/prettier",
-    "eslint": "8.0.0",
-    "prettier": "2.4.0",
-    "typescript": "4.0.2"
-  }
+	"name": "root",
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
+	"scripts": {
+		"lint": "eslint --ext .js,.ts,.jsx,.tsx packages",
+		"fix": "yarn lint --fix",
+		"release": "changeset publish"
+	},
+	"devDependencies": {
+		"@changesets/cli": "^2.23.2",
+		"@guardian/eslint-config": "file:packages/eslint-config",
+		"@guardian/eslint-config-typescript": "file:packages/eslint-config-typescript",
+		"@guardian/prettier": "^2.0.0",
+		"eslint": "8.0.0",
+		"prettier": "2.4.0",
+		"typescript": "4.0.2"
+	}
 }
