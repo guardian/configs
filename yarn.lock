@@ -261,8 +261,10 @@
     eslint-plugin-import "2.26.0"
     eslint-plugin-prettier "4.0.0"
 
-"@guardian/prettier@file:packages/prettier":
-  version "2.0.0"
+"@guardian/prettier@^2.0.0":
+  version "2.0.1"
+  resolved "https://registry.npmjs.org/@guardian/prettier/-/prettier-2.0.1.tgz#78008ed8e997e12f1f176690d1d113cea3f7e43b"
+  integrity sha512-s0j857Z1oilGQzvmTgC8s2694BZ/GJSQroEaCbrqVGXYxyXJcgEOGDYMuM0e0yOWwl8saNfcLIhyylIIqr/zjA==
 
 "@humanwhocodes/config-array@^0.6.0":
   version "0.6.0"
