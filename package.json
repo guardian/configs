@@ -10,7 +10,7 @@
 		"release": "changeset publish"
 	},
 	"devDependencies": {
-		"@changesets/cli": "^2.23.2",
+		"@changesets/cli": "^2.24.3",
 		"@guardian/eslint-config": "^1.0.0",
 		"@guardian/eslint-config-typescript": "^1.0.0",
 		"@guardian/prettier": "^2.0.0",
