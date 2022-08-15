@@ -11,8 +11,8 @@
 	},
 	"devDependencies": {
 		"@changesets/cli": "^2.23.2",
-		"@guardian/eslint-config": "file:packages/eslint-config",
-		"@guardian/eslint-config-typescript": "file:packages/eslint-config-typescript",
+		"@guardian/eslint-config": "^1.0.0",
+		"@guardian/eslint-config-typescript": "^1.0.0",
 		"@guardian/prettier": "^2.0.0",
 		"eslint": "8.0.0",
 		"prettier": "2.4.0",
